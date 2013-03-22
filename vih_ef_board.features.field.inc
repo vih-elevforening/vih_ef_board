@@ -10,7 +10,7 @@
 function vih_ef_board_field_default_fields() {
   $fields = array();
 
-  // Exported field: 'node-bestyrelse-body'
+  // Exported field: 'node-bestyrelse-body'.
   $fields['node-bestyrelse-body'] = array(
     'field_config' => array(
       'active' => '1',
@@ -33,6 +33,7 @@ function vih_ef_board_field_default_fields() {
           0 => 'format',
         ),
       ),
+      'locked' => '0',
       'module' => 'text',
       'settings' => array(),
       'translatable' => '0',
@@ -82,7 +83,7 @@ function vih_ef_board_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-bestyrelse-field_email'
+  // Exported field: 'node-bestyrelse-field_email'.
   $fields['node-bestyrelse-field_email'] = array(
     'field_config' => array(
       'active' => '1',
@@ -103,6 +104,7 @@ function vih_ef_board_field_default_fields() {
           0 => 'format',
         ),
       ),
+      'locked' => '0',
       'module' => 'text',
       'settings' => array(
         'max_length' => '255',
@@ -150,7 +152,7 @@ function vih_ef_board_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-bestyrelse-field_phone'
+  // Exported field: 'node-bestyrelse-field_phone'.
   $fields['node-bestyrelse-field_phone'] = array(
     'field_config' => array(
       'active' => '1',
@@ -171,6 +173,7 @@ function vih_ef_board_field_default_fields() {
           0 => 'format',
         ),
       ),
+      'locked' => '0',
       'module' => 'text',
       'settings' => array(
         'max_length' => '255',
@@ -218,7 +221,7 @@ function vih_ef_board_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-bestyrelse-field_picture'
+  // Exported field: 'node-bestyrelse-field_picture'.
   $fields['node-bestyrelse-field_picture'] = array(
     'field_config' => array(
       'active' => '1',
@@ -239,6 +242,7 @@ function vih_ef_board_field_default_fields() {
           0 => 'fid',
         ),
       ),
+      'locked' => '0',
       'module' => 'image',
       'settings' => array(
         'default_image' => 0,
@@ -275,6 +279,7 @@ function vih_ef_board_field_default_fields() {
       'required' => 0,
       'settings' => array(
         'alt_field' => 0,
+        'default_image' => 0,
         'file_directory' => '',
         'file_extensions' => 'png gif jpg jpeg',
         'max_filesize' => '',
@@ -296,7 +301,7 @@ function vih_ef_board_field_default_fields() {
     ),
   );
 
-  // Exported field: 'node-bestyrelse-field_title'
+  // Exported field: 'node-bestyrelse-field_title'.
   $fields['node-bestyrelse-field_title'] = array(
     'field_config' => array(
       'active' => '1',
@@ -317,6 +322,7 @@ function vih_ef_board_field_default_fields() {
           0 => 'format',
         ),
       ),
+      'locked' => '0',
       'module' => 'text',
       'settings' => array(
         'max_length' => '255',
